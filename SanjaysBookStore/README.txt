@@ -18,3 +18,4 @@ ASP.NET  core web app with individual account authentication
 1119- Confirmed that the application works
 1120- Changed the content of home page
 1121- Created the Github Repo
+1123- Confirmed the Repo
