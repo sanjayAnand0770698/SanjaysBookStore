@@ -18,3 +18,7 @@ ASP.NET  core web app with individual account authentication
 1120- Changed the content of home page
 1121- Created the Github Repo
 1123- Confirmed the Repo
+
+2022-03-09
+0114- started again next day.  let's test it
+0136- Added bootstrap theme from bootswatch.com
