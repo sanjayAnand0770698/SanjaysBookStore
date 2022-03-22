@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanjaysBookStore", "SanjaysBookStore\SanjaysBookStore.csproj", "{6E275B5A-8405-4C8B-A617-B9618F8B2576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanjaysBookStore", "SanjaysBookStore\SanjaysBookStore.csproj", "{6E275B5A-8405-4C8B-A617-B9618F8B2576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanjaysBooks.DataAccess", "SanjaysBooks.DataAccess\SanjaysBooks.DataAccess.csproj", "{971D7FC0-88CE-4A4F-9E0E-675F9B3D5250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanjayBooks.Models", "SanjayBooks.Models\SanjayBooks.Models.csproj", "{ECF09C5D-FD5F-4A52-9A6C-02F32CA4B84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanjaysBooks.Utility", "SanjaysBooks.Utility\SanjaysBooks.Utility.csproj", "{BCB32AAD-8302-4DB6-82E7-4B3A3AA184F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6E275B5A-8405-4C8B-A617-B9618F8B2576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E275B5A-8405-4C8B-A617-B9618F8B2576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E275B5A-8405-4C8B-A617-B9618F8B2576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971D7FC0-88CE-4A4F-9E0E-675F9B3D5250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971D7FC0-88CE-4A4F-9E0E-675F9B3D5250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971D7FC0-88CE-4A4F-9E0E-675F9B3D5250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971D7FC0-88CE-4A4F-9E0E-675F9B3D5250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF09C5D-FD5F-4A52-9A6C-02F32CA4B84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF09C5D-FD5F-4A52-9A6C-02F32CA4B84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF09C5D-FD5F-4A52-9A6C-02F32CA4B84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF09C5D-FD5F-4A52-9A6C-02F32CA4B84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB32AAD-8302-4DB6-82E7-4B3A3AA184F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB32AAD-8302-4DB6-82E7-4B3A3AA184F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB32AAD-8302-4DB6-82E7-4B3A3AA184F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB32AAD-8302-4DB6-82E7-4B3A3AA184F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
