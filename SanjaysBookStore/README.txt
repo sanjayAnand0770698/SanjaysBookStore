@@ -57,3 +57,10 @@ didn't dp
   2314- Modified every project and build the solution and it's time to run it
         it's working just fine
 2316- Updated the github repo
+
+
+2022-03-29
+
+
+0649- just started doing part 2 for assignment 2
+0649- added the migration file in dataaccess project
