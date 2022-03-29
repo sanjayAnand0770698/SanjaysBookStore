@@ -64,3 +64,5 @@ didn't dp
 
 0649- just started doing part 2 for assignment 2
 0649- added the migration file in dataaccess project
+0655- updated the database and it's time to run the application 
+      it's good for next part.
