@@ -50,8 +50,7 @@ didn't dp
 
      updated the github repo
 
-  attended the javascript class after that when i went back to my car, it had a parking fine ticket just because the
-  permit i had is'nt visible to them. i know its my fault, i should have placed it perfectly but i was in hurry for the asp class
+
 
 
   2314- Modified every project and build the solution and it's time to run it
@@ -63,6 +62,11 @@ didn't dp
 
 
 0649- just started doing part 2 for assignment 2
-0649- added the migration file in dataaccess project
+0649- added the migration file in dataaccess project 20220329104813_AddDefaultIdentityMigration
 0655- updated the database and it's time to run the application 
       it's good for next part.
+
+ 2022-03-30
+     
+ 1408-   after building the project it showed this error- CS0311	The type 'SanjaysBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. There is no implicit reference conversion from 'SanjaysBooks.DataAccess.Repository.UnitOfWork' to 'IUnitOfWork'.	SanjaysBookStore	C:\Users\W0770698\Source\Repos\sanjayAnand0770698\SanjaysBookStore\SanjaysBookStore\Startup.cs	39	Active
+ 1411- Commented out services.AddScoped<IUnitOfWork, UnitOfWork>(); And now it works
