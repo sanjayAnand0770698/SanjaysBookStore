@@ -6,6 +6,12 @@
 *************************************************************************************
 
 
+*************************************************************************************
+*                                                                                   *
+*                             Part 1                                                *
+*                                                                                   *
+*************************************************************************************
+
 2022-03-08
 1116
 Started the MVC application 
@@ -27,7 +33,7 @@ ASP.NET  core web app with individual account authentication
 
 march break started
 
-didn't dp
+
 20222-03-22
 
 0940- Added those css files provided in the assignment 2 folder on blackboard
@@ -58,6 +64,13 @@ didn't dp
 2316- Updated the github repo
 
 
+*************************************************************************************
+*                                                                                   *
+*                             Part 2                                                *
+*                                                                                   *
+*************************************************************************************
+
+
 2022-03-29
 
 
@@ -70,3 +83,10 @@ didn't dp
      
  1408-   after building the project it showed this error- CS0311	The type 'SanjaysBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. There is no implicit reference conversion from 'SanjaysBooks.DataAccess.Repository.UnitOfWork' to 'IUnitOfWork'.	SanjaysBookStore	C:\Users\W0770698\Source\Repos\sanjayAnand0770698\SanjaysBookStore\SanjaysBookStore\Startup.cs	39	Active
  1411- Commented out services.AddScoped<IUnitOfWork, UnitOfWork>(); And now it works
+
+ 2022-04-01
+
+ 1552- Started the category CRUD part
+
+
+ 
