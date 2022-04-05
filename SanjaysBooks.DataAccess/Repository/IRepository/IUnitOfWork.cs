@@ -14,5 +14,6 @@ namespace SanjaysBooks.DataAccess.Repository.IRepository
         ISP_Call SP_Call { get; set; }
 
         void Save();
+        void save();
     }
 }
