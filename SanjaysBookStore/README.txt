@@ -87,9 +87,14 @@ march break started
  2022-04-01
 
  1552- Started the category CRUD part
- 1611- Addded the category controller in adrea/admin folder 
+ 1611- Addded the category controller in adrea/admin/Controllers folder 
        there is some error showing even after using the "using" statement
 	   Error- CS0122	'IUnitOfWork' is inaccessible due to its protection level	
+
+
+2022-04-05
+
+1108-
 
 
 

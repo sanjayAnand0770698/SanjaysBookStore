@@ -22,9 +22,4 @@
     <ProjectReference Include="..\SanjaysBooks.Utility\SanjaysBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\Category\" />
-  </ItemGroup>
-
 </Project>

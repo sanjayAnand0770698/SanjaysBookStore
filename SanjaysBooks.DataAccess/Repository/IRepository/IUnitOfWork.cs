@@ -8,9 +8,11 @@ using System.Text;
 
 namespace SanjaysBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork : IDisposable
-    {
+    public interface IUnitOfWork
+    { 
         ICategoryRepository category { get; set; }
         ISP_Call SP_Call { get; set; }
+
+        void Save();
     }
 }

@@ -11,8 +11,8 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitofwork;
-            
-            public CategoryController(IUnitOfWork unitofwork)
+
+        public CategoryController(IUnitOfWork unitofwork)
         {
             _unitofwork = unitofwork;
         }
@@ -25,12 +25,14 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
         //API Calls here
         #region API CALLS
         [HttpGet]
+
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allobj = _unitofwork.Category.GetAll();
+            var allobj = _unitofwork.category.GetAll();
             return Json(new { data = allobj });
         }
-        #endregion
+        #endregion  
+
     }
 }
