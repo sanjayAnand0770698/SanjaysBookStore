@@ -33,7 +33,7 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
                 return View(category);
             }
             //this is for the edit
-            category = _unitofwork.category.Get(id.GetValueOrDefault());
+            category = _unitofwork.Category.Get(id.GetValueOrDefault());
             if(category == null)
             {
                 return NotFound();
@@ -51,12 +51,12 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
             {
                 if(category.Id == 0)
                 {
-                    _unitofwork.category.Add(category);
+                    _unitofwork.Category.Add(category);
                     _unitofwork.save();
                 }
                 else
                 {
-                    _unitofwork.category.Update(category);
+                    _unitofwork.Category.Update(category);
                 }
                 _unitofwork.Save();
                 return RedirectToAction(nameof(Index));       //to see all the categories
@@ -71,7 +71,7 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allobj = _unitofwork.category.GetAll();
+            var allobj = _unitofwork.Category.GetAll();
             return Json(new { data = allobj });
         }
 
@@ -79,12 +79,12 @@ namespace SanjaysBookStore.Areas.Admin.Controllers
 
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitofwork.category.Get(id);
+            var objFromDb = _unitofwork.Category.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, messsage = "Error while deleting" });
             }
-            _unitofwork.category.Remove(objFromDb);
+            _unitofwork.Category.Remove(objFromDb);
             _unitofwork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
