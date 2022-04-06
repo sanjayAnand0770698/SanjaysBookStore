@@ -11,6 +11,7 @@ namespace SanjaysBooks.DataAccess.Repository.IRepository
     public interface IUnitOfWork
     { 
         ICategoryRepository category { get; set; }
+        ICoverTypeRepository CoverType { get; }
         ISP_Call SP_Call { get; set; }
 
         void Save();

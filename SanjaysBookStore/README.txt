@@ -94,8 +94,24 @@ march break started
 
 2022-04-05
 
-1108-
+1108- Added a new index view in to the category folder  and copied the indexview.txt file content into it.
+1110- it's time to run the application and it didn't run when i click on the category button.
+1130- i reesolved the issue- the issue was that i created that index view file in views folder instead i had to make it in areas/admin folder
+      so i tranferred the file and it is good and it's running just fine.
 
+1140- Added the category button in the dropdown button
+
+1143- The application is running and now i see my category button in the dropdown button.
+
+1147- Made commits to the github and pushed them.
+
+1153- Made some changes in index file of the category, added the font from font awesome and checked them in the browser and then deleted the code and made the
+      javascript file for category and the copied the code provided by sir in the assignment 2 folder for js.
+
+1210- added the section call for the javascript in category index and tested the application and yeah it's good.
+
+1240- took a long break and back to coding.
+      
 
 
  

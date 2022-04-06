@@ -20,6 +20,9 @@ namespace SanjaysBooks.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
         public ICategoryRepository category { get ; set; }
         public ISP_Call SP_Call { get; private set; }
+
+        public ICoverTypeRepository CoverType { get; private set; }
+
         ISP_Call IUnitOfWork.SP_Call { get; set ; }
 
         public void Dispose()
