@@ -111,6 +111,19 @@ march break started
 1210- added the section call for the javascript in category index and tested the application and yeah it's good.
 
 1240- took a long break and back to coding.
+
+
+
+
+2022-04-06
+
+1010- Added covertype crud  
+      addded covertype controller
+
+1025- added covertype repo and irepo
+1030- addded covertype to unitofwork and iwunitofwork and covertype to darabasee
+1246- created migration 20220406164556 and updated the database
+1305- commited on github
       
 
 
