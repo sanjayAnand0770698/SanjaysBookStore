@@ -27,6 +27,8 @@ namespace SanjaysBooks.DataAccess.Repository
         public ICoverTypeRepository CoverType { get; private set; }
 
         ISP_Call IUnitOfWork.SP_Call { get; set ; }
+        ICategoryRepository IUnitOfWork.Category { get ;  set; }
+        ICoverTypeRepository IUnitOfWork.CoverType { get;  set; }
 
         public void Dispose()
         {
@@ -38,5 +40,9 @@ namespace SanjaysBooks.DataAccess.Repository
             _db.SaveChanges();
         }
 
+        public void save()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

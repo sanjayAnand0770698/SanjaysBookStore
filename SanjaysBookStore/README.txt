@@ -124,7 +124,14 @@ march break started
 1030- addded covertype to unitofwork and iwunitofwork and covertype to darabasee
 1246- created migration 20220406164556 and updated the database
 1305- commited on github
-      
+
+2022-04-09
+0232-started doing product part
+      added product class to model project, added the code provided by sir.
+
+0233-added reference in the ApplicationDbContext file added the migration addproducttodb
+     the timestamp is 20220409062931.
+
 
 
  
