@@ -11,8 +11,10 @@ namespace SanjayBooks.Models
         [Key]
         public int Id { get; set; }
         public string Title { get; set; }
+        [Required]
         public string Description { get; set; }
         public string ISBN { get; set; }
+        [Required]
         public string Author { get; set; }
         [Required]
         [Range(1, 10000)]
