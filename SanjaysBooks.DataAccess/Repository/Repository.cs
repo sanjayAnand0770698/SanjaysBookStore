@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
+using SanjayBooks.Models;
 using SanjaysBooks.DataAccess.Repository.IRepository;
 using SanjaysBookStore.DataAccess.Data;
 using System;
