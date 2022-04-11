@@ -132,6 +132,13 @@ march break started
 0233-added reference in the ApplicationDbContext file added the migration addproducttodb
      the timestamp is 20220409062931.
 
+2022-04-10
+
+2100- had some problem while updating the database so, deleted the migration  and added it back again and
+     this time changed the Add a to lower and just updated the database and it's working.
+     the new migration timestamp is 20220411005915.
+
+
 
 
  

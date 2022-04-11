@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SanjayBooks.Models
 {
-  public class Product
+    public class Product
     {
         [Key]
         public int Id { get; set; }
@@ -15,12 +15,12 @@ namespace SanjayBooks.Models
         public string ISBN { get; set; }
         public string Author { get; set; }
         [Required]
-        [Range(1, 1000)]
+        [Range(1, 10000)]
         public double ListPrice { get; set; }
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }
-        [ForeignKey("CategoryId0")]
+        [ForeignKey("CategoryId")]
         public Category Category { get; set; }
         [Required]
         public int CoverTypeId { get; set; }

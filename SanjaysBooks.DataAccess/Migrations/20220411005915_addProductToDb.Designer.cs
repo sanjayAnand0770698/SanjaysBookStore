@@ -10,8 +10,8 @@ using SanjaysBookStore.DataAccess.Data;
 namespace SanjaysBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220409062931_AddProductToDb")]
-    partial class AddProductToDb
+    [Migration("20220411005915_addProductToDb")]
+    partial class addProductToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -268,9 +268,6 @@ namespace SanjaysBooks.DataAccess.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryId0")
-                        .HasColumnType("int");
-
                     b.Property<int>("CoverTypeId")
                         .HasColumnType("int");
 
@@ -292,8 +289,6 @@ namespace SanjaysBooks.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("CategoryId0");
 
                     b.ToTable("Products");
                 });
@@ -351,15 +346,17 @@ namespace SanjaysBooks.DataAccess.Migrations
 
             modelBuilder.Entity("SanjayBooks.Models.Product", b =>
                 {
-                    b.HasOne("SanjayBooks.Models.CoverType", "CoverType")
+                    b.HasOne("SanjayBooks.Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SanjayBooks.Models.Category", "Category")
+                    b.HasOne("SanjayBooks.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId0");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Category");
 
