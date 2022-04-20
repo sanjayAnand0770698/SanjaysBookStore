@@ -31,23 +31,10 @@ namespace SanjaysBooks.DataAccess.Repository
             _db.Dispose();
         }
 
-      
-
-       
-
-      
-
-
-      
-
-        public void save()
-        {
-            _db.SaveChanges();
-        }
 
         public void Save()
         {
-           _db.SaveChanges();
+            _db.SaveChanges();
         }
     }
 }
