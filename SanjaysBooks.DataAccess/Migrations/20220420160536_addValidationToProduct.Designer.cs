@@ -10,7 +10,7 @@ using SanjaysBookStore.DataAccess.Data;
 namespace SanjaysBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220411010814_addValidationToProduct")]
+    [Migration("20220420160536_addValidationToProduct")]
     partial class addValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

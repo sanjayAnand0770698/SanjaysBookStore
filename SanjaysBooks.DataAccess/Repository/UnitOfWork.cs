@@ -25,7 +25,7 @@ namespace SanjaysBooks.DataAccess.Repository
         public ISP_Call SP_Call { get; private set; }
 
         public ICoverTypeRepository CoverType { get; private set; }
-        public IProductRepository Product { get; private set; }
+       
 
         ISP_Call IUnitOfWork.SP_Call { get; set ; }
         ICategoryRepository IUnitOfWork.Category { get ;  set; }
