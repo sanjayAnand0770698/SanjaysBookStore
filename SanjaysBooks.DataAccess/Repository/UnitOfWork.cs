@@ -38,6 +38,13 @@ namespace SanjaysBooks.DataAccess.Repository
       
 
 
+      
+
+        public void save()
+        {
+            _db.SaveChanges();
+        }
+
         public void Save()
         {
            _db.SaveChanges();

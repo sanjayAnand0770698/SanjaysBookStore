@@ -143,5 +143,15 @@ march break started
 
 
 
+    2022-04-20
+    
+
+1209- added migration again and deleted the old ones the new added product to db timestamp is 20220420154409.
+1236- added validationtoproduct and timestamp is 20220420160536. 
+
+    1330- Added the upsert view tested the application. it's running but after
+          adding the product it doesn't get added.
+
+
 
  
