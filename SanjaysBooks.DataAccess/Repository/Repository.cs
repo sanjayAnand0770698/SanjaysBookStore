@@ -95,6 +95,9 @@ namespace SanjayBooks.DataAccess.Repository
             dbSet.RemoveRange(entity);
         }
 
+
+       
+        }
        
     }
 }
